@@ -1,0 +1,105 @@
+.top_bar{
+	background:green;
+	margin-left:40px;
+	margin-right:40px;
+	margin-top:5px;
+	margin-bottom:5px;
+	padding:10px;
+}
+.social_icons{
+	margin-right:5px;
+}
+.contact_info{
+	color:#fff;
+	font-size:16px;
+}
+.top_bar2{
+	background:radial-gradient(circle,#009cde,brown);
+	padding-top:30px;
+	margin-left:40px;
+	margin-right:40px;
+}
+
+
+
+#menu{
+clear:both;
+margin-left:40px;
+margin-right:40px;
+}
+#menu ul{
+list-style:none;
+padding:0px;
+}
+#menu ul li{
+background-color:green;
+border:1px solid white;
+width:126.5px;;
+height:40px;
+line-height:40px;
+text-align:center;
+float:left;
+position:relative;
+}
+
+#menu ul li a{
+text-decoration:none;
+color:white;
+diplay:block;
+}
+
+
+#menu ul li:hover{
+background-color:red;
+}
+#menu ul ul{
+position:absolute;
+display:none;
+}
+#menu ul li:hover > ul{
+display:block;
+}
+
+#menu ul ul ul{
+margin-left:126px;;
+top:0px;
+}
+
+
+.top_bar3{
+margin-left:40px;
+margin-right:40px;	
+}
+.top_bar4{
+margin-left:40px;
+margin-right:40px;
+background:radial-gradient(circle,#ABFFc3,gray);
+margin-top:2px;	
+}
+.top_bar5{
+background:radial-gradient(circle,#009cde,#003087);
+margin-left:40px;	
+margin-right:40px;
+margin-top:5px;	
+}
+
+.imge{
+height:150px;
+width:250px;
+margin-bottom:20px;
+}
+.footer{
+margin-left:40px;	
+margin-right:40px;
+background:#333333;
+padding-top:20px;
+}
+.footer ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+.footer ul li a{
+	color:white;
+	font:size:15px;
+}
